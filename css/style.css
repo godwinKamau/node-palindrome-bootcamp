@@ -113,6 +113,7 @@ input[type="text"] {
     font-size: 1.3rem;
 }
 
+/* Alert System by Alvaro: https://codepen.io/alvarotrigo/pen/BaVBpYj */
 .alert {
   position: relative;
   top: 10;
@@ -153,12 +154,6 @@ input[type="text"] {
 
 .clear {
   clear: both;
-}
-
-.info {
-  background-color: #EEE;
-  border: 1px solid #DDD;
-  color: #999;
 }
 
 .success {
