@@ -17,9 +17,9 @@ const server = http.createServer(function(req,res) {
     }
     else if (page == '/palindrome') {
         if (params['word']) {   //what url would I expect to hit this part of the server?
-            const pali = params['word'].split('').reverse().join('')    //  
+            const pali = params['word'].split('').reverse().join('')    //  reverse the word
             
-            const answer = params['word'] === pali ? 'yes' : 'no';  
+            const answer = params['word'] === pali ? 'yes' : 'no';      //return the answer based off the result
 
             res.writeHead(200, {'Content-Type': 'text/text'});
             res.end(answer)

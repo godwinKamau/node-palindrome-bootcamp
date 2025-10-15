@@ -1,6 +1,7 @@
 document.querySelector('#checker').addEventListener('click', sendRequest)
 
 function sendRequest() {
+    // TODO: alarm system needs a hard reset before running this code
     document.querySelector('.alertCheckbox').checked = false
     const word = document.querySelector('#typeHere').value.toLowerCase()
     console.log(word)
